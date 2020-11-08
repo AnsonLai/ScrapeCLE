@@ -1,6 +1,7 @@
 login.py
 chromedriver.exe
 precedents/
+practice manuals/
 
 *.code-workspace
 

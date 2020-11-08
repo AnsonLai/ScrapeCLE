@@ -10,3 +10,11 @@ var output = [];
 
 
 console.log(document.querySelectorAll('#ops-document-formats a'));
+
+
+var links = document.querySelectorAll('#books a');
+var output = [];
+links.forEach(el => { output.push(el.href)});
+console.log(output.toString());
+
+console.log(document.querySelectorAll('#treeWrapper>div>ul>li>a'));

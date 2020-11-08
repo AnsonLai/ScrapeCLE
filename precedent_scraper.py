@@ -53,7 +53,7 @@ for line in lines:
   
 # for line in lines[0:2]:
 #   url = line.strip()
-#   r = requests.get('https://pc.cle.bc.ca/clebc-pc-web/document.do?fpid=4357&format=DOC', allow_redirects=True)
+#   r = requests.get('', allow_redirects=True)
 #   open('sample.doc', 'wb').write(r.content)
 #   print(r.headers.get('content-type'))
 
